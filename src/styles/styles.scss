@@ -1,0 +1,51 @@
+/* Reset básico para CSS */
+
+/* Box sizing */
+html {
+  box-sizing: border-box;
+}
+*, *:before, *:after {
+  box-sizing: inherit;
+}
+
+/* Margin and padding */
+body, h1, h2, h3, h4, h5, h6, p, ol, ul, figure, blockquote, dl, dd {
+  margin: 0;
+  padding: 0;
+}
+
+/* Headings */
+h1, h2, h3, h4, h5, h6 {
+  font-size: inherit;
+  font-weight: inherit;
+}
+
+/* Lists */
+ol, ul {
+  list-style: none;
+}
+
+/* Links */
+a {
+  text-decoration: none;
+  color: inherit;
+}
+
+/* Forms */
+button, input, optgroup, select, textarea {
+  margin: 0;
+  font: inherit;
+  color: inherit;
+}
+
+/* Tables */
+table {
+  border-collapse: collapse;
+  border-spacing: 0;
+}
+
+/* Images */
+img {
+  max-width: 100%;
+  height: auto;
+}
