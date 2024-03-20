@@ -9,11 +9,11 @@ const Header = () => {
         <img src={logo} alt="Logo" />
         <div>
           <ul>
-            <li>Como Fazer</li>
-            <li>Ofertas</li>
-            <li>Depoimentos</li>
-            <li>Vídeos</li>
-            <li>Meu Carrinho</li>
+            <li><a href="">Como Fazer</a></li>
+            <li><a href="">Ofertas</a></li>
+            <li><a href="">Depoimentos</a></li>
+            <li><a href="">Vídeos</a></li>
+            <li><a href="">Meu Carrinho</a></li>
           </ul>
         </div>
       </nav>
