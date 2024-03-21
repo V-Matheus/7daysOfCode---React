@@ -81,6 +81,32 @@ main {
   grid-template-rows: 100px 3fr 1fr 2fr 2fr;
 }
 
+/* Reset de estilos para todos os inputs */
+input {
+  box-sizing: border-box; /* Faz com que a largura e altura do input incluam a borda e o preenchimento */
+  font-family: inherit; /* Usa a mesma fonte definida no elemento pai */
+  font-size: inherit; /* Usa o mesmo tamanho de fonte definido no elemento pai */
+  padding: 0; /* Define um preenchimento interno para o input */
+  outline: none; /* Remove a borda de foco padrão */
+  border: none;
+}
+
+/* Reset de estilos para todos os botões */
+button {
+  appearance: none; /* Remove os estilos padrão do sistema */
+  background-color: transparent; /* Remove o fundo */
+  border: none; /* Remove a borda */
+  margin: 0; /* Remove a margem */
+  padding: 0; /* Remove o preenchimento */
+  font: inherit; /* Usa a mesma fonte definida no elemento pai */
+  color: inherit; /* Usa a mesma cor de texto definida no elemento pai */
+  cursor: pointer; /* Define o cursor como apontador */
+}
+
+/* Adicione estilos adicionais conforme necessário para outros tipos de botões */
+
+/* Adicione estilos adicionais conforme necessário para outros tipos de inputs */
+
 .background {
   height: 500px;
   z-index: -1;

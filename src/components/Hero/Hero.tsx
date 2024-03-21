@@ -1,8 +1,8 @@
 import React from 'react';
 
-import ImageHero from '../../assets/imagem-hero 1.png';
-
 import { Container } from './HeroStyled';
+
+import mail from '../../assets/mail.svg';
 
 const Hero = () => {
   return (
@@ -15,9 +15,11 @@ const Hero = () => {
           torná-lo uma pessoa mais feliz no seu dia a dia. Entre com seu e-mail
           e assine nossa newsletter para saber das novidades da marca.
         </p>
-        <div>
-          <span></span>
-          <p>Insira seu e-mail</p>
+        <div className="heroBtn">
+          <div>
+            <img src={mail} alt="" />
+            <input placeholder="Insira seu e-mail"></input>
+          </div>
           <button>Assinar newsletter</button>
         </div>
       </div>
