@@ -3,6 +3,7 @@
 /* Box sizing */
 html {
   box-sizing: border-box;
+  background-color: #F3F3F3;
 }
 *,
 *:before,
@@ -104,7 +105,7 @@ button {
 
 main {
   display: grid;
-  grid-template-columns: 2fr 1fr 1000px 1fr 2fr;
+  grid-template-columns: 1fr 1fr 1000px 1fr 1fr;
   grid-template-rows: 100px 3fr 1fr 2fr 2fr;
 }
 

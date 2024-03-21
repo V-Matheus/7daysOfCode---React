@@ -11,7 +11,7 @@ export const Container = styled.div`
     margin-top: 100px;
     flex-direction: column;
     gap: 30px;
-    width: 100%;
+    width: 90%;
 
     span {
       font-family: Montserrat;
@@ -46,7 +46,8 @@ export const Container = styled.div`
     display: flex;
     justify-content: space-between;
     height: 75px;
-    box-shadow: 2px 2px 4px rgba(0, 0, 0, 0.1);
+    background-color: #ffffff;
+    padding-left: 5px;
 
     font-family: Montserrat;
     font-size: 1rem;
@@ -61,7 +62,7 @@ export const Container = styled.div`
     }
 
     input {
-      width: 80%;
+      width: 85%;
     }
 
     img {
@@ -81,9 +82,8 @@ export const Container = styled.div`
 
   .heroImg {
     width: 100%;
-    height: 50rem;
     background-image: url(src/assets/imagem-hero1.png);
-    background-position: -12.25rem -6.25rem;
+    background-position: -12.25rem -5.25rem;
     background-repeat: no-repeat;
   }
 `;

@@ -15,7 +15,7 @@ const Hero = () => {
           torná-lo uma pessoa mais feliz no seu dia a dia. Entre com seu e-mail
           e assine nossa newsletter para saber das novidades da marca.
         </p>
-        <div className="heroBtn">
+        <div className="heroBtn sombra">
           <div>
             <img src={mail} alt="" />
             <input placeholder="Insira seu e-mail"></input>
