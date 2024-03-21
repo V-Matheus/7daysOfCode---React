@@ -57,6 +57,15 @@ export const Container = styled.div`
     div {
       display: inherit;
       gap: 10px;
+      width: 100%;
+    }
+
+    input {
+      width: 85%;
+    }
+
+    img {
+      width: 24px;
     }
 
     button {
