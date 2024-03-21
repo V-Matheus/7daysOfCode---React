@@ -6,7 +6,7 @@ const Header = () => {
   return (
     <HeaderStyled>
       <nav>
-        <img src={logo} alt="Logo" />
+        <a href="#"><img src={logo} alt="Logo" /></a> 
         <div>
           <ul>
             <li><a href="">Como Fazer</a></li>

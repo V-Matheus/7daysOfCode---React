@@ -1,11 +1,10 @@
 import styled from 'styled-components';
 
 export const Container = styled.div`
-  display: grid;
+  display: flex;
   grid-column: 3;
   grid-row: 2;
   justify-content: center;
-  overflow: hidden;
 
   .heroContent {
     display: flex;
@@ -49,7 +48,7 @@ export const Container = styled.div`
     box-shadow: 2px 2px 4px rgba(0, 0, 0, 0.1);
 
     font-family: Montserrat;
-    font-size: 16px;
+    font-size: 1rem;
     font-weight: 400;
     line-height: 19.5px;
     text-align: left;
@@ -61,7 +60,7 @@ export const Container = styled.div`
     }
 
     input {
-      width: 85%;
+      width: 80%;
     }
 
     img {
@@ -70,6 +69,7 @@ export const Container = styled.div`
 
     button {
       display: flex;
+      width: 50%;
       padding: 0px 1rem;
       align-items: center;
       justify-content: center;
@@ -79,11 +79,10 @@ export const Container = styled.div`
   }
 
   .heroImg {
-    grid-column: 3;
-    width: 550px;
-    height: 800px;
+    width: 100%;
+    height: 50rem;
     background-image: url(src/assets/imagem-hero1.png);
-    background-position: -180px -100px;
+    background-position: -10.25rem -6.25rem;
     background-repeat: no-repeat;
   }
 `;
