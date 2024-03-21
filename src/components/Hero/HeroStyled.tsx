@@ -2,16 +2,16 @@ import styled from 'styled-components';
 
 export const Container = styled.div`
   display: flex;
-  grid-column: 3;
-  grid-row: 2;
+  grid-column: 2 / 5;
+  grid-row: 2 / 4;
   justify-content: center;
-
+  
   .heroContent {
     display: flex;
     margin-top: 100px;
     flex-direction: column;
     gap: 30px;
-    grid-column: 2;
+    width: 100%;
 
     span {
       font-family: Montserrat;
@@ -23,6 +23,7 @@ export const Container = styled.div`
     }
 
     h1 {
+      width: 375px;
       font-family: Elsie Swash Caps;
       font-size: 82px;
       font-weight: 900;
@@ -82,7 +83,7 @@ export const Container = styled.div`
     width: 100%;
     height: 50rem;
     background-image: url(src/assets/imagem-hero1.png);
-    background-position: -10.25rem -6.25rem;
+    background-position: -12.25rem -6.25rem;
     background-repeat: no-repeat;
   }
 `;

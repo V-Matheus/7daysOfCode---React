@@ -2,7 +2,7 @@ import styled from 'styled-components';
 
 export const HeaderStyled = styled.div`
   display: grid;
-  grid-column: 3 / 5;
+  grid-column: 2 / 5;
   grid-row: 1;
 
   font-family: Montserrat;
