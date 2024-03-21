@@ -1,11 +1,11 @@
 import React from 'react'
 import logo from '../../assets/logo.svg'
-import './header.scss'
+import { HeaderStyled } from './HeaderStyled'
 
 const Header = () => {
   return (
-    <header>
-      <nav className='container'>
+    <HeaderStyled>
+      <nav>
         <img src={logo} alt="Logo" />
         <div>
           <ul>
@@ -17,7 +17,7 @@ const Header = () => {
           </ul>
         </div>
       </nav>
-    </header>
+    </HeaderStyled>
   )
 }
 

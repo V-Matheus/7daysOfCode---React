@@ -1,9 +1,10 @@
 import React from 'react';
 
-import background from './assets/Vector.png';
+import './index.css';
 
+import background from './assets/Vector.png';
 import Header from './components/Header/Header';
-import './styles/styles.scss';
+import Hero from './components/Hero/Hero';
 
 function App() {
   return (
@@ -11,6 +12,7 @@ function App() {
       <main>
         <img className="background" src={background} alt="" />
         <Header />
+        <Hero />
       </main>
     </>
   );
