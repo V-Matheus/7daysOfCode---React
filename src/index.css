@@ -78,11 +78,11 @@ img {
 main {
   display: grid;
   grid-template-columns: 2fr 1fr 1000px 1fr 2fr;
-  grid-template-rows: 1fr 5fr 3fr 4fr;
+  grid-template-rows: 100px 3fr 1fr 2fr 2fr;
 }
 
 .background {
-  height: 800px;
+  height: 500px;
   z-index: -1;
   position: absolute;
   top: 0;

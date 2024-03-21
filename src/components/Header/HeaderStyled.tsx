@@ -3,11 +3,11 @@ import styled from 'styled-components';
 export const HeaderStyled = styled.div`
   display: grid;
   grid-column: 3 / 5;
+  grid-row: 1;
 
   nav {
     width: 100%;
     margin: auto;
-    padding: 50px 0;
     display: flex;
     flex-direction: row;
     align-items: flex-end;
