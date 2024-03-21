@@ -2,7 +2,7 @@ import React from 'react';
 
 import background from './assets/Vector.png'
 
-import Header from './components/Header';
+import Header from './components/Header/Header';
 import './styles/styles.scss'
 
 function App() {
