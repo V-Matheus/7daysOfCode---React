@@ -60,8 +60,10 @@ const Ofertas = () => {
     <Container>
       <div>
         <div className="ofertasTittle">
-          <span>Conheça nossas</span>
-          <h1>ofertas</h1>
+          <div>
+            <span className="subtitulo">Conheça nossas</span>
+            <h1 className="titulo">ofertas</h1>
+          </div>
         </div>
 
         <div className="ofertasContainer">
@@ -76,7 +78,9 @@ const Ofertas = () => {
                   R$ {oferta.preco.toFixed(2).replace('.', ',')}
                 </span>
                 <div className="ofertaButton">
-                  <a href="#">Comprar <img src={seta} alt="" /></a>
+                  <a href="#">
+                    Comprar <img src={seta} alt="" />
+                  </a>
                 </div>
               </div>
             </div>

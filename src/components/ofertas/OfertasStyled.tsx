@@ -5,6 +5,26 @@ export const Container = styled.div`
   grid-column: 2/ 5;
   grid-row: 5;
 
+  .ofertasTittle {
+    display: flex;
+    padding: 30px 0;
+    justify-content: center;
+    align-items: center;
+
+    span {
+      font-family: Montserrat;
+      font-size: 22px;
+      font-weight: 400;
+      line-height: 26.82px;
+    }
+
+    h1 {
+      font-size: 82px;
+      font-weight: 900;
+      line-height: 94.46px;
+    }
+  }
+
   .ofertasContainer {
     display: flex;
     flex-wrap: wrap;
@@ -40,10 +60,12 @@ export const Container = styled.div`
     gap: 10px;
   }
 
-  .ofertaButton a {
-    color: ${colorPrimary};
-    display: inline-block;
-    padding: 10px 0;
+  .ofertaButton {
+    a {
+      color: ${colorPrimary};
+      display: inline-block;
+      padding: 10px 0;
+    }
 
     img {
       margin-left: 20px;

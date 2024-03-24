@@ -7,6 +7,14 @@ export const Container = styled.div`
   grid-row: 4;
   background-color: #ffffff;
 
+  .comoConseguirImg {
+    overflow: hidden;
+
+    img {
+      scale: 1.1;
+    }
+  }
+
   .comoConseguirContent {
     display: flex;
     width: 50%;

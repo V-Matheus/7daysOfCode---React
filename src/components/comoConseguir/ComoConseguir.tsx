@@ -6,7 +6,7 @@ import image3 from '../../assets/image3.png';
 const ComoConseguir = () => {
   return (
     <Container className="sombra">
-      <div className="img">
+      <div className='comoConseguirImg'>
         <img src={image3} alt="" />
       </div>
       <div className='comoConseguirContent'>
