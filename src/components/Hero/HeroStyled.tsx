@@ -5,7 +5,7 @@ export const Container = styled.div`
   grid-column: 2 / 5;
   grid-row: 2 / 4;
   justify-content: center;
-  
+
   .heroContent {
     display: flex;
     margin-top: 100px;
@@ -48,6 +48,7 @@ export const Container = styled.div`
     height: 75px;
     background-color: #ffffff;
     padding-left: 5px;
+    position: relative;
 
     font-family: Montserrat;
     font-size: 1rem;
@@ -77,6 +78,15 @@ export const Container = styled.div`
       justify-content: center;
       background-color: #ffcb47;
       color: #ffffff;
+    }
+
+    span {
+      position: absolute;
+      top: 100px;
+
+      font-family: Montserrat;
+      font-size: 14px;
+      color: red;
     }
   }
 

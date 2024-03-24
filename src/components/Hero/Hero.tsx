@@ -1,10 +1,41 @@
-import React from 'react';
+import React, { useEffect, useState } from 'react';
 
 import { Container } from './HeroStyled';
 
 import mail from '../../assets/mail.svg';
 
 const Hero = () => {
+  const [value, setValue] = useState('');
+  const [error, setError] = useState('');
+
+  const regex =
+    /^(([^<>()[\]\\.,;:\s@"]+(\.[^<>()[\]\\.,;:\s@"]+)*)|.(".+"))@((\[[0-9]{1,3}\.[0-9]{1,3}\.[0-9]{1,3}\.[0-9]{1,3}\])|(([a-zA-Z\-0-9]+\.)+[a-zA-Z]{2,}))$/;
+
+  function handleChange(event: React.ChangeEvent<HTMLInputElement>) {
+    setValue(event.target.value);
+    verificarRegex();
+  }
+
+  function verificarRegex() {
+    const validacao = () => {
+      if (regex.test(value)) {
+        return true;
+      } else {
+        return false;
+      }
+    };
+
+    const regexOk = validacao();
+
+    if (value.length === 0) {
+      setError('Digite um valor');
+    } else if (!regexOk) {
+      setError('Digite um Email válido');
+    } else {
+      setError('');
+    }
+  }
+
   return (
     <Container>
       <div className="heroContent">
@@ -18,7 +49,13 @@ const Hero = () => {
         <div className="heroBtn sombra">
           <div>
             <img src={mail} alt="" />
-            <input placeholder="Insira seu e-mail"></input>
+            <input
+              value={value}
+              onChange={handleChange}
+              onBlur={verificarRegex}
+              placeholder="Insira seu e-mail"
+            ></input>
+            {error && <span>{error}</span>}
           </div>
           <button>Assinar newsletter</button>
         </div>
@@ -29,5 +66,3 @@ const Hero = () => {
 };
 
 export default Hero;
-
-
