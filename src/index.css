@@ -3,7 +3,7 @@
 /* Box sizing */
 html {
   box-sizing: border-box;
-  background-color: #F3F3F3;
+  background-color: #f3f3f3;
 }
 *,
 *:before,
@@ -76,7 +76,6 @@ img {
   height: auto;
 }
 
-
 /* Reset de estilos para todos os inputs */
 input {
   box-sizing: border-box; /* Faz com que a largura e altura do input incluam a borda e o preenchimento */
@@ -106,7 +105,7 @@ button {
 main {
   display: grid;
   grid-template-columns: 1fr 1fr 1000px 1fr 1fr;
-  grid-template-rows: 100px 3fr 1fr 2fr 2fr;
+  grid-template-rows: 100px 3fr 1fr 2fr 3fr 100px;
 }
 
 .background {
