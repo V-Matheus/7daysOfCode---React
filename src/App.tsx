@@ -7,6 +7,7 @@ import Header from './components/Header/Header';
 import Hero from './components/Hero/Hero';
 import ComoConseguir from './components/comoConseguir/ComoConseguir';
 import { StylesGlobais } from './styles/stylesGlobais';
+import Ofertas from './components/ofertas/Ofertas';
 function App() {
   return (
     <>
@@ -16,6 +17,7 @@ function App() {
         <Header />
         <Hero />
         <ComoConseguir/>
+        <Ofertas/>
       </main>
     </>
   );
