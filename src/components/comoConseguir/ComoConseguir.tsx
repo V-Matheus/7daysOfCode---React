@@ -1,7 +1,7 @@
 import React from 'react';
 import { Container } from './ComoConseguirStyled';
 
-import image3 from '../../assets/image3.png';
+import image3 from '../../assets/imagem3.png';
 
 const ComoConseguir = () => {
   return (
